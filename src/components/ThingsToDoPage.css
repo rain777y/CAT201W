@@ -1,0 +1,46 @@
+.things-to-do {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    color: #333;
+  }
+  
+  .suggestion {
+    margin-bottom: 30px;
+  }
+  
+  .suggestion h2 {
+    color: #007BFF;
+  }
+  
+  .suggestion p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .footer-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+  }
+  
+  .welcome-text {
+    font-size: 24px;
+    color: #FF5733;
+    font-weight: bold;
+    animation: flash 1s infinite alternate;
+  }
+  
+  @keyframes flash {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0.5;
+    }
+  }
+  
